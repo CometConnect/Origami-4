@@ -1,0 +1,87 @@
+h1
+{
+    font-size : 80px;
+    align-self : center;
+}
+body
+{
+    margin : 0px;
+    background-color : whitesmoke;
+    background-image:url("images/bg.png");
+    background-repeat:no-repeat;
+    background-size:100%;
+    overflow:auto;
+    background-attachment:fixed;
+}
+.menu
+{
+    display : flex;
+    justify-content : center;
+    background-color : #000000;
+    padding : 15px;
+    font-size : 20px;
+    font-family : sans-serif;
+    font-weight : 400;
+    color : #ffffff;
+}
+.grid
+{
+    display : flex;
+    border : 10px;
+    border-radius : 50px ;
+    flex-wrap : wrap;
+    align-items: center;
+}
+.grid img
+{
+    border : 2px solid #000000;
+    border-radius : 50px ;
+}
+.item
+{
+    display : flex;
+    border : 10px solid #000000;
+    background-color : yellowgreen;
+    flex-wrap : wrap;
+    padding : 15px;
+    opacity: 0.3;
+}
+a:hover
+{
+    color : green;
+}
+a:visited
+{
+    color : red
+}
+.item:hover
+{
+    opacity: 1;
+    transition: 0.3s;
+    transition-delay: 0.14s;
+    transform: scale(1.2);
+}
+.row
+{
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+.footer
+{
+    background-color : black;
+    font-size : 20px;
+    font-family : sans-serif;
+    font-weight : 400;
+    color : white;
+    display : flex;
+    justify-content : left;
+}
+.social
+{
+    opacity: 0.2;
+}
+.social:hover
+{
+    opacity: 1;
+}
